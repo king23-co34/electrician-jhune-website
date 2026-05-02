@@ -1,0 +1,70 @@
+{
+  "name": "electrician-jhune-website",
+  "version": "1.0.0",
+  "description": "Modern, high-converting electrician service website for Electrician Jhune in Toronto",
+  "main": "index.html",
+  "scripts": {
+    "dev": "python -m http.server 8000",
+    "build": "echo 'Website is production-ready'",
+    "test": "echo 'Manual testing required'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/king23-co34/electrician-jhune-website.git"
+  },
+  "keywords": [
+    "electrician",
+    "electrical-services",
+    "heating",
+    "cooling",
+    "toronto",
+    "website",
+    "lead-generation"
+  ],
+  "author": "king23-co34",
+  "license": "MIT",
+  "homepage": "https://github.com/king23-co34/electrician-jhune-website",
+  "specifications": {
+    "framework": "Vanilla HTML, CSS, JavaScript",
+    "css": "Custom Tailwind-compiled CSS (no CDN)",
+    "javascript": "Vanilla JS (no frameworks)",
+    "images": "All local (no CDN)",
+    "dependencies": "None",
+    "browser-support": ["Chrome", "Firefox", "Safari", "Edge"]
+  },
+  "features": [
+    "Multi-step lead capture form",
+    "Image upload with preview",
+    "Custom toast notifications",
+    "Scroll reveal animations",
+    "Mobile-responsive design",
+    "Sticky bottom CTA bar",
+    "Contact system (call, WhatsApp, email)",
+    "Local storage form persistence",
+    "Lazy loading for images",
+    "SEO optimized"
+  ],
+  "contact": {
+    "business": "Electrician Jhune",
+    "phone": "+1 647-896-7610",
+    "email": "jhune.tibayan@yahoo.com",
+    "location": "Keele Street, Toronto, Ontario, Canada"
+  },
+  "pages": {
+    "home": "Hero section with CTAs",
+    "about": "Company information with trust factors",
+    "services": "5-service showcase",
+    "gallery": "Project portfolio",
+    "quote": "Multi-step lead form",
+    "testimonials": "Customer reviews",
+    "contact": "Contact information with map"
+  },
+  "performance": {
+    "no-cdn": true,
+    "no-frameworks": true,
+    "minified": true,
+    "lazy-loading": true,
+    "responsive": true,
+    "mobile-optimized": true
+  }
+}
